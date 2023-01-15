@@ -2,7 +2,9 @@
        universal styles 
 ---------------------------*/
 
-
+* {
+    font-family: sans-serif;
+}
 
 /* --------------------------
     Styling Top Section 
@@ -17,6 +19,11 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+nav>a{
+    text-decoration: none;
+    color: black;
 }
 
 .h4{
@@ -84,12 +91,13 @@ nav{
   Styling Features Section 
 -------------------------- */
 
-.features{
+.features, .accomplish{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2em 2em;
+    padding: 2em;
     gap: 4em;
+    margin: 4em 0em;
 }
 
 .container2{
