@@ -125,7 +125,7 @@ nav>a{
 
 .lovefeat{
     display: grid;
-    grid-template-columns: 1.5fr 1.9fr;
+    grid-template-columns: 1fr 1fr;
     gap: 5em;
     margin: 0em 15em;
 }
@@ -234,8 +234,11 @@ nav>a{
 }
 
 .icon-container{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .icon-container>img{
@@ -254,4 +257,78 @@ footer{
     margin: 0em 20em;
     padding: 0.5em 0em;
     border-radius: 1em;
+}
+
+/* -----------------------------
+       mobile resposnive
+----------------------------- */
+
+@media screen and (max-width:668px){
+    nav, .ulnav, .features, .accomplish{
+        flex-direction: column;
+    }
+
+    .lnav{
+        padding: 0em;
+    }
+
+    .h1{
+        font-size: 2em;
+    }
+    .container2, .container3{
+        grid-template-columns: 1fr;
+        text-align: center;
+        align-items: center;
+
+    }
+    .features{
+        flex-direction: column-reverse;
+    }
+    .lovefeat{
+        grid-template-columns: 1fr;
+        gap: 0em;
+        margin: 0em;
+    }   
+    .factsl{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 2em;
+    }
+    .facts, .factsu{
+        margin: 0em;
+        text-align: center;
+    }
+    .factsu>.para{
+        width: auto;
+    }
+    .icon-container{
+        grid-template-columns: 1fr;
+    }
+    footer{
+        margin: 0em;
+        padding: 0em;
+    }
+    .lovefeatr{
+        padding: 0em;
+    }
+    
+    .lovefeatr>img{
+        margin-top: 0em;
+        margin-left: 0em;
+    }
+
+    .container2>img, .icon-container>img{
+        max-width: 100%;
+        margin: 2em 0em;
+    }
+
+    .container3>p, .container3>button{
+        margin: 1vh 0vh;
+    }
+    .lovefeatr>button{
+        font-size: 2em;
+        width: 6em;
+        height: 3.5em;
+    }
 }
