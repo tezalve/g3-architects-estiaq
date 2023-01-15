@@ -49,8 +49,8 @@ nav{
     margin: 1vw;
 }
 
-.bnga{
-    font-size: 3em;
+.h1{
+    font-size: 5em;
     text-align: center;
 }
 
@@ -107,6 +107,51 @@ nav{
     margin: 1vw;
 }
 
-.qlof{
+.h2{
     font-size: 3em;
+}
+
+/* -----------------------------
+  Styling Features Love & Enjoy 
+-------------------------------- */
+
+.lovefeat{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5em;
+    margin: 0em 15em;
+}
+
+.h3{
+    border-left:0.12em solid #0a9cfd;
+    font-size: 3em;
+    padding-left: 1em;
+}
+
+.shcontainer{
+    box-shadow: 3px 3px 5px 6px rgb(231, 231, 231);
+    padding: 1.5em;
+    margin: 1.5em 0em;
+}
+
+.lovefeatr{
+    position: relative;
+    padding: 1em;
+}
+
+.lovefeatr>img{
+    max-width: 100%;
+}
+
+.lovefeatr>button{
+    display: flex;
+    flex-direction: column;
+    font-size: 4em;
+    width: 5.2em;
+    height: 3em;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
