@@ -1,0 +1,79 @@
+/* --------------------------
+       universal styles 
+---------------------------*/
+
+
+
+/* --------------------------
+    Styling Top Section 
+-------------------------- */
+
+.top-section{
+    background-color: #ddf4ff;
+}
+
+/* styling nav */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navl{
+    font-size: 1.8em;
+}
+
+.lnav{
+    padding: 0.5em 1em;
+}
+
+.lnav:hover{
+    background-color: #0a9cfd;
+    cursor: pointer;
+}
+
+.ulnav{
+    list-style: none;
+    display: flex;
+}
+
+/* styling brand new architects part */
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container1 *{
+    margin: 1vw;
+}
+
+.bnga{
+    font-size: 3em;
+}
+
+.btn{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 15px;
+    border: 0;
+    padding: 5px 10px;
+    height: 45px;
+    border-radius: 5px;
+    background: #0a9cfd;
+}
+
+.btn:hover {
+    background-color: #0075fa;
+    cursor: pointer;
+}
+
+.btn:active {
+  background-color: #0075fa;
+  transform: translateY(4px);
+}
+
+.container1>img{
+    max-width: 60%;
+}
