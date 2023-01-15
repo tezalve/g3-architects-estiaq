@@ -198,7 +198,20 @@ nav>a{
     border-radius: 0.5em;
     padding: 1em;
     width: 10em;
+    
 }
+
+.bordercontainer:hover{
+    cursor: pointer;
+    animation-name: bordercontaineran;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes bordercontaineran {
+    from {background-color: white;}
+    to {background-color: #0075fa;}
+  }
 
 /* -----------------------------
         Styling Sponsors 
