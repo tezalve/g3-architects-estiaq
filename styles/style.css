@@ -170,6 +170,14 @@ nav>a{
     left: 0;
 }
 
+.lovefeatr>button:hover{
+    cursor: auto;
+}
+
+.lovefeatr>button:active {
+    transform: translateY(0px);
+  }
+
 /* -----------------------------
         Styling Facts 
 ----------------------------- */
